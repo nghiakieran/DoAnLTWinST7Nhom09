@@ -1,0 +1,12 @@
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\DataAccessLayer\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

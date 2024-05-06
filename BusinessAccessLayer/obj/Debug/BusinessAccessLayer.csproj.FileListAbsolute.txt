@@ -1,0 +1,12 @@
+D:\LTW\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+D:\LTW\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+D:\LTW\BusinessAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\LTW\BusinessAccessLayer\bin\Debug\EntityFramework.dll
+D:\LTW\BusinessAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\LTW\BusinessAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\LTW\BusinessAccessLayer\bin\Debug\EntityFramework.xml
+D:\LTW\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csproj.AssemblyReference.cache
+D:\LTW\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csproj.CoreCompileInputs.cache
+D:\LTW\BusinessAccessLayer\obj\Debug\Business.395A7FC9.Up2Date
+D:\LTW\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+D:\LTW\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb

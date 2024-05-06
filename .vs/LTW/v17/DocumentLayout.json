@@ -1,0 +1,512 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\ltw\\dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\staffmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\providerdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\providerdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\provider.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\productmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\productmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\LTW\\dataaccesslayer\\dbgrocerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbgrocerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\ltw\\ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\LTW\\dataaccesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StaffManagement.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\StaffManagement.cs",
+              "RelativeDocumentMoniker": "UI\\StaffManagement.cs",
+              "ToolTip": "D:\\LTW\\UI\\StaffManagement.cs",
+              "RelativeToolTip": "UI\\StaffManagement.cs",
+              "ViewState": "AQIAAI4BAAAAAAAAAAAowKsBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:55:43.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StaffManagement.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\StaffManagement.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\StaffManagement.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\StaffManagement.Designer.cs",
+              "RelativeToolTip": "UI\\StaffManagement.Designer.cs",
+              "ViewState": "AQIAAMQBAAAAAAAAAAAowCACAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:55:34.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StaffManagement.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\StaffManagement.cs",
+              "RelativeDocumentMoniker": "UI\\StaffManagement.cs",
+              "ToolTip": "D:\\LTW\\UI\\StaffManagement.cs [Design]",
+              "RelativeToolTip": "UI\\StaffManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:55:20.783Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProviderDetails.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProviderDetails.cs",
+              "RelativeDocumentMoniker": "UI\\ProviderDetails.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProviderDetails.cs",
+              "RelativeToolTip": "UI\\ProviderDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:54:46.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProviderDetails.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProviderDetails.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\ProviderDetails.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProviderDetails.Designer.cs",
+              "RelativeToolTip": "UI\\ProviderDetails.Designer.cs",
+              "ViewState": "AQIAAEwBAAAAAAAAAAAowGkBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:54:40.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProviderDetails.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProviderDetails.cs",
+              "RelativeDocumentMoniker": "UI\\ProviderDetails.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProviderDetails.cs [Design]",
+              "RelativeToolTip": "UI\\ProviderDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:54:16.706Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Provider.cs",
+              "RelativeDocumentMoniker": "UI\\Provider.cs",
+              "ToolTip": "D:\\LTW\\UI\\Provider.cs",
+              "RelativeToolTip": "UI\\Provider.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAtwOQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:53:41.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Provider.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Provider.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Provider.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\Provider.Designer.cs",
+              "RelativeToolTip": "UI\\Provider.Designer.cs",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAAAAIBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:53:29.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Provider.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\Provider.cs",
+              "RelativeDocumentMoniker": "UI\\Provider.cs",
+              "ToolTip": "D:\\LTW\\UI\\Provider.cs [Design]",
+              "RelativeToolTip": "UI\\Provider.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:53:24.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductManagement.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "UI\\ProductManagement.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProductManagement.cs",
+              "RelativeToolTip": "UI\\ProductManagement.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAUwK0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:52:46.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductManagement.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProductManagement.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\ProductManagement.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProductManagement.Designer.cs",
+              "RelativeToolTip": "UI\\ProductManagement.Designer.cs",
+              "ViewState": "AQIAACcBAAAAAAAAAAAUwEcBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:52:27.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductManagement.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\ProductManagement.cs",
+              "RelativeDocumentMoniker": "UI\\ProductManagement.cs",
+              "ToolTip": "D:\\LTW\\UI\\ProductManagement.cs [Design]",
+              "RelativeToolTip": "UI\\ProductManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:52:15.325Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Menu.cs",
+              "ToolTip": "D:\\LTW\\UI\\Menu.cs",
+              "RelativeToolTip": "UI\\Menu.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAtwJAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:51:50.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Menu.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\Menu.Designer.cs",
+              "RelativeToolTip": "UI\\Menu.Designer.cs",
+              "ViewState": "AQIAAGUBAAAAAAAAAAAUwIUBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:51:40.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Menu.cs",
+              "ToolTip": "D:\\LTW\\UI\\Menu.cs [Design]",
+              "RelativeToolTip": "UI\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:51:37.187Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\MainForm.Designer.cs",
+              "RelativeToolTip": "UI\\MainForm.Designer.cs",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAkwAUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:50:29.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "D:\\LTW\\UI\\MainForm.cs",
+              "RelativeToolTip": "UI\\MainForm.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:50:27.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\MainForm.cs",
+              "ToolTip": "D:\\LTW\\UI\\MainForm.cs [Design]",
+              "RelativeToolTip": "UI\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:50:13.633Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Login.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\Login.Designer.cs",
+              "RelativeToolTip": "UI\\Login.Designer.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAJsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:49:29.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Login.cs",
+              "RelativeDocumentMoniker": "UI\\Login.cs",
+              "ToolTip": "D:\\LTW\\UI\\Login.cs",
+              "RelativeToolTip": "UI\\Login.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:49:28.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\Login.cs",
+              "RelativeDocumentMoniker": "UI\\Login.cs",
+              "ToolTip": "D:\\LTW\\UI\\Login.cs [Design]",
+              "RelativeToolTip": "UI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:49:14.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Home.cs",
+              "RelativeDocumentMoniker": "UI\\Home.cs",
+              "ToolTip": "D:\\LTW\\UI\\Home.cs",
+              "RelativeToolTip": "UI\\Home.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwCUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:48:49.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "D:\\LTW\\UI\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Home.Designer.cs",
+              "ToolTip": "D:\\LTW\\UI\\Home.Designer.cs",
+              "RelativeToolTip": "UI\\Home.Designer.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAewD8AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:48:30.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\LTW\\UI\\App.config",
+              "RelativeDocumentMoniker": "UI\\App.config",
+              "ToolTip": "D:\\LTW\\UI\\App.config",
+              "RelativeToolTip": "UI\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-06T08:39:00.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\LTW\\UI\\Home.cs",
+              "RelativeDocumentMoniker": "UI\\Home.cs",
+              "ToolTip": "D:\\LTW\\UI\\Home.cs [Design]",
+              "RelativeToolTip": "UI\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:37:55.992Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\LTW\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\LTW\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:23:53.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\LTW\\DataAccessLayer\\App.config",
+              "RelativeDocumentMoniker": "DataAccessLayer\\App.config",
+              "ToolTip": "D:\\LTW\\DataAccessLayer\\App.config",
+              "RelativeToolTip": "DataAccessLayer\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-06T08:20:14.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DBGroceryContext.cs",
+              "DocumentMoniker": "D:\\LTW\\DataAccessLayer\\DBGroceryContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DBGroceryContext.cs",
+              "ToolTip": "D:\\LTW\\DataAccessLayer\\DBGroceryContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\DBGroceryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T08:16:02.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
