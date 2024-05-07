@@ -1,0 +1,7 @@
+B1: Mở file LTW2024.sln bằng visual studio
+B2: Trên thanh công cụ, chọn Tools -> NuGet Package Manager 
+->Pakage Manager Console
+B3: Ở Pakage Manager Console dưới góc trái màn hình PM>
+B4: Nhập update-database
+B5: Chạy chương trình(Start)
+B6: Đăng nhập bằng tài khoản username = user1, password = pass1

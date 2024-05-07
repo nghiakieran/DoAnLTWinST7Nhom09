@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BusinessAccessLayer;
 
 namespace UI
 {
@@ -239,60 +240,19 @@ namespace UI
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            using (var context = new DBGroceryContext())
+            DBNhanVien dBNhanVien = new DBNhanVien();
+            DBTaiKhoan dBTaiKhoan = new DBTaiKhoan();
+            string gioiTinh = rbMale.Checked ? "Nam" : "Nữ";
+            bool f = dBNhanVien.ThemNhanVien(tbHo.Text, tbTen.Text, dtpDate.Value, gioiTinh, tbSDT.Text, tbAddress.Text, decimal.Parse(tbLuong.Text));
+            bool f1 = dBTaiKhoan.ThemTaiKhoan(tbUsername.Text, tbPassword.Text, cbRole.SelectedItem.ToString());
+            if (f && f1)
             {
-                try
-                {
-                    string newMaNV = "";
-                    var lastEmployee = context.NhanViens.OrderByDescending(nv => nv.MaNV).FirstOrDefault();
-
-                    if (lastEmployee != null)
-                    {
-                        string lastEmployeeMaNV = lastEmployee.MaNV;
-                        // Sử dụng mã nhân viên của nhân viên cuối cùng ở đây
-                        string last3Chars = lastEmployeeMaNV.Substring(Math.Max(0, lastEmployeeMaNV.Length - 3)); // Lấy 3 ký tự cuối
-                        int last3CharsAsNumber = int.Parse(last3Chars);
-                        last3CharsAsNumber++;
-                        // Chuyển đổi số thành chuỗi có 3 ký tự
-                        string newNumberString = last3CharsAsNumber.ToString("D3");
-
-                        // Sử dụng PadLeft để thêm số 0 vào trước nếu cần
-                        newMaNV = "NV" + newNumberString.PadLeft(3, '0');
-                    }
-                    else
-                    {
-                        newMaNV = "NV001";
-                    }
-                    string gioiTinh = rbMale.Checked ? "Nam" : "Nữ";
-                    NhanVien nhanVien = new NhanVien
-                    {
-                        MaNV = newMaNV,
-                        HoNV = tbHo.Text,
-                        TenNV = tbTen.Text,
-                        NgaySinh = dtpDate.Value,
-                        GioiTinh = gioiTinh,
-                        SoDT = tbSDT.Text,
-                        DiaChi = tbAddress.Text,
-                        Luong = decimal.Parse(tbLuong.Text),
-                    };
-                    TaiKhoan taiKhoan = new TaiKhoan
-                    {
-                        UserName = tbUsername.Text,
-                        Password = tbPassword.Text,
-                        MaNV = newMaNV,
-                        Role = cbRole.SelectedItem.ToString(),
-                    };
-                    context.NhanViens.Add(nhanVien);
-                    context.SaveChanges();
-                    context.TaiKhoans.Add(taiKhoan);
-                    context.SaveChanges();
-                    MessageBox.Show("Thêm thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Thêm thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            else
+            {
+                MessageBox.Show("Kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }         
         }
 
         private void btnReload_Click(object sender, EventArgs e)
@@ -320,6 +280,7 @@ namespace UI
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+        
             if (cbRole.Text.Contains("sysadmin"))
             {
                 MessageBox.Show("Bạn không thể người ngang quyền hạn!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -341,32 +302,20 @@ namespace UI
                         //MessageBox.Show(firstCellValueAsString);
                     }
                 }
-                using (var context = new DBGroceryContext())
+
+                DBNhanVien dBNhanVien = new DBNhanVien();
+                DBTaiKhoan dBTaiKhoan = new DBTaiKhoan();
+                bool f = dBNhanVien.XoaNhanVien(firstCellValueAsString);
+                bool f1 = dBTaiKhoan.XoaTaiKhoan(firstCellValueAsString);              
+                if (f && f1)
+                {         
+                    MessageBox.Show("Xóa thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
                 {
-                    try
-                    {
-                        // Tìm và lấy ra các tài khoản có tham chiếu đến nhân viên cần xóa
-                        var taiKhoansToDelete = context.TaiKhoans.Where(tk => tk.MaNV.Contains(firstCellValueAsString)).ToList();
-
-                        // Xóa các tài khoản có tham chiếu đến nhân viên
-                        context.TaiKhoans.RemoveRange(taiKhoansToDelete);
-
-                        // Lưu thay đổi vào cơ sở dữ liệu
-                        context.SaveChanges();
-
-                        // Sau đó, bạn có thể tiếp tục xóa nhân viên từ bảng NhanViens
-                        var nhanViensToDelete = context.NhanViens.Where(nv => nv.MaNV.Contains(firstCellValueAsString)).ToList();
-                        context.NhanViens.RemoveRange(nhanViensToDelete);
-                        context.SaveChanges();
-                        MessageBox.Show("Xóa thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch (SqlException)
-                    {
-                        MessageBox.Show("Xóa không thành công!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                    MessageBox.Show("Xóa không thành công!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -385,45 +334,21 @@ namespace UI
                     firstCellValueAsString = firstCellValue.ToString();
                 }
             }
-            using (var context = new DBGroceryContext())
+            string gioiTinh = rbMale.Checked ? "Nam" : "Nữ";
+            DBNhanVien dBNhanVien = new DBNhanVien();
+            DBTaiKhoan dBTaiKhoan = new DBTaiKhoan();
+            bool f = dBNhanVien.SuaNhanVien(firstCellValueAsString, tbHo.Text, tbTen.Text, dtpDate.Value, gioiTinh, tbSDT.Text, tbAddress.Text, decimal.Parse(tbLuong.Text));
+            bool f1 = dBTaiKhoan.SuaTaiKhoan(tbUsername.Text, tbPassword.Text, firstCellValueAsString, cbRole.SelectedItem.ToString());
+
+            if (f && f1)
             {
-                try
-                {
-
-                    // Tìm và lấy ra các tài khoản có tham chiếu đến nhân viên cần xóa
-                    var taiKhoan = context.TaiKhoans.FirstOrDefault(tk => tk.MaNV == firstCellValueAsString);
-                    if (taiKhoan != null)
-                    {
-                        taiKhoan.UserName = tbUsername.Text;
-                        taiKhoan.Password = tbPassword.Text;
-                        taiKhoan.Role = cbRole.SelectedItem.ToString();
-
-                        // Lưu thay đổi vào cơ sở dữ liệu
-                        context.SaveChanges();
-                    }
-                    // Xóa các tài khoản có tham chiếu đến nhân viên
-                    string gioiTinh = rbMale.Checked ? "Nam" : "Nữ";
-                    // Sau đó, bạn có thể tiếp tục xóa nhân viên từ bảng NhanViens
-                    var nhanVien = context.NhanViens.FirstOrDefault(nv => nv.MaNV == firstCellValueAsString);
-                    if (nhanVien != null)
-                    {
-                        nhanVien.HoNV = tbHo.Text;
-                        nhanVien.TenNV = tbTen.Text;
-                        nhanVien.NgaySinh = dtpDate.Value;
-                        nhanVien.GioiTinh = gioiTinh;
-                        nhanVien.SoDT = tbSDT.Text;
-                        nhanVien.DiaChi = tbAddress.Text;
-                        nhanVien.Luong = decimal.Parse(tbLuong.Text);
-                        context.SaveChanges();
-                    }
-                    context.SaveChanges();
-                    MessageBox.Show("Sửa thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (SqlException)
-                {
-                    MessageBox.Show("Sửa không thành công!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Sửa thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            } 
+            else
+            {
+                MessageBox.Show("Sửa không thành công!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
         }
     }
 }

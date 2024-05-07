@@ -25,6 +25,7 @@ namespace DataAccessLayer.Models
         {
             get { return SoLuong > 0; }
         }
+        [Range(0, int.MaxValue, ErrorMessage = "Số lượng phải là số không âm.")]
         public int SoLuong { get; set; }
 
         public ICollection<ChiTietPhieuNhap> ChiTietPhieuNhaps { get; set; }

@@ -193,88 +193,58 @@ namespace UI
             tbQty.Text = "0";
             UpdateTotalMoney();
         }
+        private string GetSelectedSupplierNameFromComboBox()
+        {
+            if (cbNCC.SelectedItem is NhaCungCap selectedSupplier)
+            {
+                return selectedSupplier.TenNCC; // Trả về tên nhà cung cấp của nhà cung cấp được chọn
+            }
+
+            return null; // Trường hợp không có lựa chọn hợp lệ, có thể xử lý khác tại đây
+        }
 
         private void btnAddProvider_Click(object sender, EventArgs e)
         {
-            using (var context = new DBGroceryContext())
+            DBHoaDonNhapHang dBHoaDonNhapHang = new DBHoaDonNhapHang();
+            DBChiTietPhieuNhap dBChiTietPhieuNhap = new DBChiTietPhieuNhap();
+            DBSanPham dBSanPham = new DBSanPham();
+
+            string tenNCC = cbNCC.Text; // Lấy tên nhà cung cấp từ ComboBox
+            decimal totalAmount = decimal.Parse(lbMoneyPay.Text);
+
+            bool success = dBHoaDonNhapHang.ThemPhieuNhap(tenNCC, totalAmount);
+
+            if (success)
             {
-                try
+                foreach (DataGridViewRow row in gwProvider.Rows)
                 {
-                    string newPN = "";
-                    var lastPN = context.HoaDonNhapHangs.OrderByDescending(nv => nv.MaPhieu).FirstOrDefault();
+                    if (!row.IsNewRow)
+                    {
+                        string maSP = row.Cells["MaSP"].Value?.ToString();
+                        string tenSP = row.Cells["TenSP"].Value?.ToString();
+                        string donGia = row.Cells["DonGia"].Value?.ToString();
+                        string soLuong = row.Cells["SoLuong"].Value?.ToString();
 
-                    if (lastPN != null)
-                    {
-                        string lastMaPN = lastPN.MaPhieu;
-                        // Sử dụng mã nhân viên của nhân viên cuối cùng ở đây
-                        string last3Chars = lastMaPN.Substring(Math.Max(0, lastMaPN.Length - 3)); // Lấy 3 ký tự cuối
-                        int last3CharsAsNumber = int.Parse(last3Chars);
-                        last3CharsAsNumber++;
-                        // Chuyển đổi số thành chuỗi có 3 ký tự
-                        string newNumberString = last3CharsAsNumber.ToString("D3");
-
-                        // Sử dụng PadLeft để thêm số 0 vào trước nếu cần
-                        newPN = "HDNH" + newNumberString.PadLeft(3, '0');
+                        dBChiTietPhieuNhap.ThemChiTietPhieuNhap(maSP, int.Parse(soLuong), decimal.Parse(donGia));
+                        dBSanPham.ThemThongTinSanPham(maSP, tenSP, int.Parse(soLuong), decimal.Parse(donGia));
                     }
-                    else
-                    {
-                        newPN = "HDNH001";
-                    }
-                    var nhacc = context.NhaCungCaps.Select(ncc => new { ncc.MaNCC, ncc.TenNCC }).Where(c => c.TenNCC.Contains(cbNCC.Text)).FirstOrDefault();
-                    HoaDonNhapHang hoaDonNhapHang = new HoaDonNhapHang
-                    {
-                        MaPhieu = newPN,
-                        NgayNhap = DateTime.Now,
-                        TongTienDonNhap = decimal.Parse(lbMoneyPay.Text),
-                        MaNV = DBCurrentLogin.GetCurrentLoginInfo().MaNV,
-                        MaNCC = nhacc.MaNCC,
-                    };
-                    context.HoaDonNhapHangs.Add(hoaDonNhapHang);
-                    context.SaveChanges();
-                    foreach (DataGridViewRow row in gwProvider.Rows)
-                    {
-                        // Kiểm tra xem hàng hiện tại không phải là hàng mới
-                        if (!row.IsNewRow)
-                        {
-                            // Lấy giá trị từ các ô trong hàng
-                            string maSP = row.Cells["MaSP"].Value?.ToString();
-                            string tenSP = row.Cells["TenSP"].Value?.ToString();
-                            string donGia = row.Cells["DonGia"].Value?.ToString();
-                            string soLuong = row.Cells["SoLuong"].Value?.ToString();
-                            // Tiếp tục xử lý dữ liệu, ví dụ: tạo đối tượng ChiTietHD và thêm vào danh sách
-                            ChiTietPhieuNhap chiTiet = new ChiTietPhieuNhap
-                            {
-                                MaPhieu = newPN,
-                                MaSP = maSP,
-                                DonGia = decimal.Parse(donGia),
-                                SoLuong = int.Parse(soLuong),
-                            };
-                            context.ChiTietPhieuNhaps.Add(chiTiet);
-                            context.SaveChanges();
-                            // Thực hiện các hành động khác ở đây
-                            var sanPham = context.SanPhams.FirstOrDefault(tk => tk.MaSP == (maSP));
-                            if (sanPham != null)
-                            {
-                                sanPham.MaSP = maSP;
-                                sanPham.TenSP = tenSP;
-                                sanPham.SoLuong = sanPham.SoLuong + int.Parse(soLuong);
-                                sanPham.DonGia = decimal.Parse(donGia);
-                                // Lưu thay đổi vào cơ sở dữ liệu
-                                context.SaveChanges();
-                            }
-                        }
-                    }
-                    context.SaveChanges();
-
-                    MessageBox.Show("Thêm phiếu nhập thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    gwProvider.Rows.Clear();
-                    tbQty.Text = "0";
-                    UpdateTotalMoney();
                 }
-                catch (Exception)
+
+                MessageBox.Show("Thêm phiếu nhập thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                gwProvider.Rows.Clear();
+                tbQty.Text = "0";
+                UpdateTotalMoney();
+
+                using (var context = new DBGroceryContext())
                 {
-                    MessageBox.Show("Kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    var query = context.SanPhams
+                            .Select(s => new { s.MaSP, s.TenSP, s.DonGia, s.SoLuong }); // Chọn các cột MaSP, TenSP, DonGia
+                    gwProProvider.DataSource = query.ToList();
                 }
+            }       
+            else
+            {
+                MessageBox.Show("Không thể thêm phiếu nhập. Vui lòng kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

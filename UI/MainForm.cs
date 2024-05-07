@@ -115,5 +115,15 @@ namespace UI
         {
             Application.Exit();
         }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Home());
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

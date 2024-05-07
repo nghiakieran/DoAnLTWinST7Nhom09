@@ -93,6 +93,7 @@ namespace DataAccessLayer
                 .WithMany(sp => sp.ChiTietPhieuNhaps)
                 .HasForeignKey(ct => ct.MaSP)
                 .WillCascadeOnDelete(false);
+
         }
     }
 }

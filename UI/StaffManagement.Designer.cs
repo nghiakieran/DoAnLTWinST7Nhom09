@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.cbRole = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.dtpDate = new System.Windows.Forms.DateTimePicker();
             this.tbTen = new System.Windows.Forms.TextBox();
@@ -72,7 +71,6 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.cbRole);
-            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.dtpDate);
             this.panel1.Controls.Add(this.tbTen);
@@ -115,14 +113,6 @@
             this.cbRole.Name = "cbRole";
             this.cbRole.Size = new System.Drawing.Size(121, 28);
             this.cbRole.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(0, 0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 27;
             // 
             // label11
             // 
@@ -540,7 +530,6 @@
         private System.Windows.Forms.Label sdsds;
         private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.ComboBox cbRole;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label11;
     }
 }

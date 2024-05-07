@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BusinessAccessLayer;
 
 namespace UI
 {
@@ -91,45 +92,15 @@ namespace UI
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            using (var context = new DBGroceryContext())
+            DBSanPham dBSanPham = new DBSanPham();
+            bool f = dBSanPham.ThemSanPham(tbName.Text.Trim(), decimal.Parse(tbPrice.Text.Trim()), int.Parse(tbQty.Text.Trim()));
+            if (f)
             {
-                try
-                {
-                    string newMaSP = "";
-                    var lastSP = context.SanPhams.OrderByDescending(nv => nv.MaSP).FirstOrDefault();
-
-                    if (lastSP != null)
-                    {
-                        string lastMaSP = lastSP.MaSP;
-                        // Sử dụng mã nhân viên của nhân viên cuối cùng ở đây
-                        string last3Chars = lastMaSP.Substring(Math.Max(0, lastMaSP.Length - 3)); // Lấy 3 ký tự cuối
-                        int last3CharsAsNumber = int.Parse(last3Chars);
-                        last3CharsAsNumber++;
-                        // Chuyển đổi số thành chuỗi có 3 ký tự
-                        string newNumberString = last3CharsAsNumber.ToString("D3");
-
-                        // Sử dụng PadLeft để thêm số 0 vào trước nếu cần
-                        newMaSP = "SP" + newNumberString.PadLeft(3, '0');
-                    }
-                    else
-                    {
-                        newMaSP = "SP001";
-                    }
-                    SanPham sanPham = new SanPham
-                    {
-                        MaSP = newMaSP,
-                        TenSP = tbName.Text.Trim(),
-                        DonGia = decimal.Parse(tbPrice.Text.Trim()),
-                        SoLuong = int.Parse(tbQty.Text.Trim())
-                    };
-                    context.SanPhams.Add(sanPham);
-                    context.SaveChanges();
-                    MessageBox.Show("Thêm thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Kiểm tra lại thông tin, có thể trùng tên sản phẩm!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Thêm thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Kiểm tra lại thông tin, có thể trùng tên sản phẩm!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -147,29 +118,16 @@ namespace UI
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            using (var context = new DBGroceryContext())
+            DBSanPham dBSanPham = new DBSanPham();
+            bool f = dBSanPham.SuaSanPham(tbMaSP.Text.Trim(), tbName.Text.Trim(), decimal.Parse(tbPrice.Text.Trim()), int.Parse(tbQty.Text.Trim()));
+            if (f)
             {
-                try
-                {
-                    string ma = tbMaSP.Text.Trim();
-                    var sp = context.SanPhams
-                                    .Where(s => s.MaSP.Contains(ma))
-                                    .FirstOrDefault();
-                    if (sp != null)
-                    {
-                        sp.TenSP = tbName.Text.Trim();
-                        sp.SoLuong = int.Parse(tbQty.Text.Trim());
-                        sp.DonGia = decimal.Parse(tbPrice.Text.Trim());
-                    }
-                    context.SaveChanges();
-                    MessageBox.Show("Sửa thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (SqlException ex)
-                {
-                    MessageBox.Show("Sửa không thành công!!!" + " " + ex, "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
-            }
+                MessageBox.Show("Sửa thông tin thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }                  
+            else
+            {
+                MessageBox.Show("Sửa không thành công!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }          
         }
     }
 }

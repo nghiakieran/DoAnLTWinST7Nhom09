@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnTop10Pro = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -37,10 +40,13 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbSellPro = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.chartRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel1.SuspendLayout();
+            this.pnTop10Pro.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -56,6 +62,7 @@
             // pnTop10Pro
             // 
             this.pnTop10Pro.BackColor = System.Drawing.Color.White;
+            this.pnTop10Pro.Controls.Add(this.chartRevenue);
             this.pnTop10Pro.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnTop10Pro.Location = new System.Drawing.Point(0, 103);
             this.pnTop10Pro.Name = "pnTop10Pro";
@@ -137,6 +144,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sản phẩm đã bán trong ngày";
             // 
+            // chartRevenue
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartRevenue.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartRevenue.Legends.Add(legend1);
+            this.chartRevenue.Location = new System.Drawing.Point(145, 85);
+            this.chartRevenue.Name = "chartRevenue";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartRevenue.Series.Add(series1);
+            this.chartRevenue.Size = new System.Drawing.Size(1082, 428);
+            this.chartRevenue.TabIndex = 0;
+            this.chartRevenue.Text = "chart1";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -149,11 +172,13 @@
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
+            this.pnTop10Pro.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -169,6 +194,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbSellPro;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartRevenue;
     }
 }
 

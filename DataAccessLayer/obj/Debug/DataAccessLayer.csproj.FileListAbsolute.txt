@@ -10,3 +10,15 @@ D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileI
 D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
 D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\DoAnLTWinST7Nhom09\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
