@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class Home
+    partial class Revenue
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnTop10Pro = new System.Windows.Forms.Panel();
+            this.chartRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lbDTPro = new System.Windows.Forms.Label();
@@ -40,13 +41,13 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbSellPro = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.chartRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.pnTop10Pro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,6 +71,22 @@
             this.pnTop10Pro.TabIndex = 1;
             this.pnTop10Pro.Paint += new System.Windows.Forms.PaintEventHandler(this.pnTop10Pro_Paint);
             // 
+            // chartRevenue
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartRevenue.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartRevenue.Legends.Add(legend1);
+            this.chartRevenue.Location = new System.Drawing.Point(145, 85);
+            this.chartRevenue.Name = "chartRevenue";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartRevenue.Series.Add(series1);
+            this.chartRevenue.Size = new System.Drawing.Size(1082, 428);
+            this.chartRevenue.TabIndex = 0;
+            this.chartRevenue.Text = "chart1";
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel5);
@@ -84,6 +101,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.lbDTPro);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -94,13 +112,13 @@
             // 
             // lbDTPro
             // 
-            this.lbDTPro.AutoSize = true;
             this.lbDTPro.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDTPro.Location = new System.Drawing.Point(310, 29);
+            this.lbDTPro.Location = new System.Drawing.Point(331, 30);
             this.lbDTPro.Name = "lbDTPro";
-            this.lbDTPro.Size = new System.Drawing.Size(35, 38);
+            this.lbDTPro.Size = new System.Drawing.Size(246, 38);
             this.lbDTPro.TabIndex = 2;
             this.lbDTPro.Text = "0";
+            this.lbDTPro.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label2
             // 
@@ -144,21 +162,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Sản phẩm đã bán trong ngày";
             // 
-            // chartRevenue
+            // label3
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartRevenue.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartRevenue.Legends.Add(legend1);
-            this.chartRevenue.Location = new System.Drawing.Point(145, 85);
-            this.chartRevenue.Name = "chartRevenue";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartRevenue.Series.Add(series1);
-            this.chartRevenue.Size = new System.Drawing.Size(1082, 428);
-            this.chartRevenue.TabIndex = 0;
-            this.chartRevenue.Text = "chart1";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(571, 30);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 38);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "đ";
             // 
             // Home
             // 
@@ -173,12 +185,12 @@
             this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.pnTop10Pro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartRevenue)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,6 +207,7 @@
         private System.Windows.Forms.Label lbSellPro;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartRevenue;
+        private System.Windows.Forms.Label label3;
     }
 }
 

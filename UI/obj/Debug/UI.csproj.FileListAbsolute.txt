@@ -42,4 +42,4 @@ D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.csproj.Up2Date
 D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.exe
 D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.pdb
 D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.StaffManagement.resources
-D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.Home.resources
+D:\DoAnLTWinST7Nhom09\UI\obj\Debug\UI.Revenue.resources

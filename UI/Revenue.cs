@@ -12,10 +12,10 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace UI
 {
-    public partial class Home : Form
+    public partial class Revenue : Form
     {
         private DBGroceryContext _context;
-        public Home()
+        public Revenue()
         {
             InitializeComponent();
             _context = new DBGroceryContext(); // Khởi tạo đối tượng context trong constructor
@@ -47,7 +47,7 @@ namespace UI
 
                 // Hiển thị thông tin
                 lbSellPro.Text = totalQuantitySold.ToString();
-                lbDTPro.Text = totalRevenue.ToString("C"); // Hiển thị số tiền dưới dạng tiền tệ
+                lbDTPro.Text = totalRevenue.ToString(); // Hiển thị số tiền dưới dạng tiền tệ
             }
             catch (Exception ex)
             {

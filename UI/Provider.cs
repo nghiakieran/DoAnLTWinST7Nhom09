@@ -51,8 +51,7 @@ namespace UI
 
         private void btnMore_Click(object sender, EventArgs e)
         {
-            ProviderDetails providerDetails = new ProviderDetails();
-            providerDetails.Show();
+            
         }
 
         private void gwProProvider_CellClick(object sender, DataGridViewCellEventArgs e)

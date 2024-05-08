@@ -3,80 +3,48 @@
   "WorkspaceRootPath": "D:\\DoAnLTWinST7Nhom09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\dbgrocerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbgrocerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\providerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\hoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\hoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\hoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\hoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|d:\\doanltwinst7nhom09\\dataaccesslayer\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|d:\\doanltwinst7nhom09\\ui\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,6 +53,74 @@
     {
       "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\businessaccesslayer\\dbhoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbhoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|d:\\doanltwinst7nhom09\\businessaccesslayer\\dbkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\hoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\hoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\chitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\hoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\hoadonnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\businessaccesslayer\\dbhoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbhoadonbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\businessaccesslayer\\dbchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbchitietphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\businessaccesslayer\\dbnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\businessaccesslayer\\dbsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512176D8-076A-4DFE-A0EA-7555D4A6D701}|BusinessAccessLayer\\BusinessAccessLayer.csproj|solutionrelative:businessaccesslayer\\dbsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\staffmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\productmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|D:\\DoAnLTWinST7Nhom09\\ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9ECFFCAE-499C-434D-BE8E-B35B264548A4}|UI\\UI.csproj|solutionrelative:ui\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|D:\\DoAnLTWinST7Nhom09\\dataaccesslayer\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D23E116-C692-4F0A-A458-3D2079E77AF1}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,8 +169,160 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Login.cs",
+              "RelativeDocumentMoniker": "UI\\Login.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Login.cs [Design]",
+              "RelativeToolTip": "UI\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T09:42:43.757Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBKhachHang.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBKhachHang.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\DBKhachHang.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBKhachHang.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\DBKhachHang.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T09:13:07.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\TaiKhoan.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\TaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T07:29:56.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DBChiTietPhieuNhap.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBChiTietPhieuNhap.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\DBChiTietPhieuNhap.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBChiTietPhieuNhap.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\DBChiTietPhieuNhap.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T06:32:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBGroceryContext.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\DBGroceryContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DBGroceryContext.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\DBGroceryContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\DBGroceryContext.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwEIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T06:30:52.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DBNhanVien.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBNhanVien.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\DBNhanVien.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBNhanVien.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\DBNhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:37:29.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DBHoaDonBanHang.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBHoaDonBanHang.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\DBHoaDonBanHang.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBHoaDonBanHang.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\DBHoaDonBanHang.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:36:56.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StaffManagement.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs",
+              "RelativeDocumentMoniker": "UI\\StaffManagement.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs",
+              "RelativeToolTip": "UI\\StaffManagement.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:36:30.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DBSanPham.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBSanPham.cs",
+              "RelativeDocumentMoniker": "BusinessAccessLayer\\DBSanPham.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBSanPham.cs",
+              "RelativeToolTip": "BusinessAccessLayer\\DBSanPham.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwBcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:35:05.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\NhanVien.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\NhanVien.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T02:28:58.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T05:31:19.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StaffManagement.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs",
+              "RelativeDocumentMoniker": "UI\\StaffManagement.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs [Design]",
+              "RelativeToolTip": "UI\\StaffManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T03:10:04.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Menu.cs",
               "RelativeDocumentMoniker": "UI\\Menu.cs",
@@ -146,86 +334,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StaffManagement.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs",
-              "RelativeDocumentMoniker": "UI\\StaffManagement.cs",
-              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\StaffManagement.cs [Design]",
-              "RelativeToolTip": "UI\\StaffManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:10:04.769Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 27,
               "Title": "ProductManagement.cs [Design]",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\ProductManagement.cs",
               "RelativeDocumentMoniker": "UI\\ProductManagement.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\ProductManagement.cs [Design]",
               "RelativeToolTip": "UI\\ProductManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:09:53.902Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-07T03:09:53.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProviderDetails.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\ProviderDetails.cs",
-              "RelativeDocumentMoniker": "UI\\ProviderDetails.cs",
-              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\ProviderDetails.cs [Design]",
-              "RelativeToolTip": "UI\\ProviderDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:09:37.826Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.cs",
-              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Home.cs",
-              "RelativeDocumentMoniker": "UI\\Home.cs",
-              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Home.cs",
-              "RelativeToolTip": "UI\\Home.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAIAwwDwAAABAAAAA",
+              "DocumentIndex": 10,
+              "Title": "Revenue.cs",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Revenue.cs",
+              "RelativeDocumentMoniker": "UI\\Revenue.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Revenue.cs",
+              "RelativeToolTip": "UI\\Revenue.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAIAwwDEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:00.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "SanPham.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\SanPham.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\SanPham.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\SanPham.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\SanPham.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAiwCIAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:29:01.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NhanVien.cs",
-              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\NhanVien.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\NhanVien.cs",
-              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\NhanVien.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\NhanVien.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAiwCwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:28:58.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "NhaCungCap.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\NhaCungCap.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\NhaCungCap.cs",
@@ -233,31 +379,30 @@
               "RelativeToolTip": "DataAccessLayer\\Models\\NhaCungCap.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAmwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:28:55.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T02:28:55.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\KhachHang.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\KhachHang.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\KhachHang.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\KhachHang.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBkAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:51.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "HoaDonNhapHang.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\HoaDonNhapHang.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\HoaDonNhapHang.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\HoaDonNhapHang.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\HoaDonNhapHang.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwB8AAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvx8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:48.465Z",
               "EditorCaption": ""
@@ -270,20 +415,20 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\HoaDonBanHang.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\HoaDonBanHang.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\HoaDonBanHang.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwCAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:45.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ChiTietPhieuNhap.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\ChiTietPhieuNhap.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\ChiTietPhieuNhap.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\ChiTietPhieuNhap.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\ChiTietPhieuNhap.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB4AAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:41.184Z",
               "EditorCaption": ""
@@ -296,27 +441,27 @@
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\ChiTietHD.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\DataAccessLayer\\Models\\ChiTietHD.cs",
               "RelativeToolTip": "DataAccessLayer\\Models\\ChiTietHD.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB4AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:28:31.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "UI\\MainForm.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\MainForm.cs",
               "RelativeToolTip": "UI\\MainForm.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAIAwwFkAAAAMAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAawD4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:25:28.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "UI\\MainForm.cs",
@@ -328,44 +473,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 4,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Login.cs",
               "RelativeDocumentMoniker": "UI\\Login.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Login.cs",
               "RelativeToolTip": "UI\\Login.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:16:17.688Z"
+              "WhenOpened": "2024-05-07T02:16:17.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Home.cs",
-              "RelativeDocumentMoniker": "UI\\Home.cs",
-              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Home.cs [Design]",
-              "RelativeToolTip": "UI\\Home.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Revenue.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Revenue.cs",
+              "RelativeDocumentMoniker": "UI\\Revenue.cs",
+              "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Revenue.cs [Design]",
+              "RelativeToolTip": "UI\\Revenue.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:15:29.816Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Provider.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Provider.cs",
               "RelativeDocumentMoniker": "UI\\Provider.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Provider.cs",
               "RelativeToolTip": "UI\\Provider.cs",
-              "ViewState": "AQIAAPEAAAAAAAAAAAAqwBMBAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAawDUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T14:38:33.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "Provider.cs [Design]",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Provider.cs",
               "RelativeDocumentMoniker": "UI\\Provider.cs",
@@ -377,20 +523,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\UI\\Menu.cs",
               "RelativeDocumentMoniker": "UI\\Menu.cs",
               "ToolTip": "D:\\DoAnLTWinST7Nhom09\\UI\\Menu.cs",
               "RelativeToolTip": "UI\\Menu.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAAwGIAAAAxAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwHEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T15:02:08.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "DBHoaDonNhapHang.cs",
               "DocumentMoniker": "D:\\DoAnLTWinST7Nhom09\\BusinessAccessLayer\\DBHoaDonNhapHang.cs",
               "RelativeDocumentMoniker": "BusinessAccessLayer\\DBHoaDonNhapHang.cs",
@@ -398,7 +544,8 @@
               "RelativeToolTip": "BusinessAccessLayer\\DBHoaDonNhapHang.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:03:10.139Z"
+              "WhenOpened": "2024-05-06T15:03:10.139Z",
+              "EditorCaption": ""
             }
           ]
         }

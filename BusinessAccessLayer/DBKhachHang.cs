@@ -40,7 +40,7 @@ namespace BusinessAccessLayer
                     {
                         newMaKH = "KH001";
                     }
-                    if (TenKH == null && SoDT == null)
+                    if (TenKH.Contains("") && SoDT.Contains(""))
                     {
                         TenKH = "Khach hang moi";
                         SoDT = "0999999999";

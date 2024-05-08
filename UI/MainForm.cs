@@ -60,7 +60,7 @@ namespace UI
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Home());
+            OpenChildForm(new Revenue());
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -118,7 +118,7 @@ namespace UI
 
         private void btnThongKe_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Home());
+            OpenChildForm(new Revenue());
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)

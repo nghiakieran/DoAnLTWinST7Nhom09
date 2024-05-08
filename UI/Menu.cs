@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessAccessLayer;
 using System.Runtime.Remoting.Contexts;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 
 namespace UI
 {
@@ -78,45 +79,57 @@ namespace UI
 
         private void btnPay_Click(object sender, EventArgs e)
         {
-            DBKhachHang dBKhachHang = new DBKhachHang();
-            DBHoaDonBanHang dBHoaDonBanHang = new DBHoaDonBanHang();
-            DBChiTietHD dBChiTietHD = new DBChiTietHD();
-            DBSanPham dBSanPham = new DBSanPham();
-            bool f = dBKhachHang.ThemKhachHang(tbNameCus.Text, tbNumberCus.Text);
-            bool f1 = dBHoaDonBanHang.ThemHoaDon(decimal.Parse(lbMoneyPay.Text));
-            if (f && f1)
+            if (gwSellProduct.Rows.Count > 0)
             {
-                foreach (DataGridViewRow row in gwSellProduct.Rows)
+                DBKhachHang dBKhachHang = new DBKhachHang();
+                DBHoaDonBanHang dBHoaDonBanHang = new DBHoaDonBanHang();
+                DBChiTietHD dBChiTietHD = new DBChiTietHD();
+                DBSanPham dBSanPham = new DBSanPham();
+                bool f = dBKhachHang.ThemKhachHang(tbNameCus.Text, tbNumberCus.Text);
+                bool f1 = dBHoaDonBanHang.ThemHoaDon(decimal.Parse(lbMoneyPay.Text));
+                if (f && f1)
                 {
-                    // Kiểm tra xem hàng hiện tại không phải là hàng mới
-                    if (!row.IsNewRow)
+                    foreach (DataGridViewRow row in gwSellProduct.Rows)
                     {
-                        // Lấy giá trị từ các ô trong hàng
-                        string maSP = row.Cells["MaSP"].Value?.ToString();
-                        string tenSP = row.Cells["TenSP"].Value?.ToString();
-                        string donGia = row.Cells["DonGia"].Value?.ToString();
-                        string soLuong = row.Cells["SoLuong"].Value?.ToString();
-                        dBChiTietHD.ThemChiTietHD(maSP, int.Parse(soLuong), decimal.Parse(donGia));
-                        dBSanPham.TruThongTinSanPham(maSP, tenSP, int.Parse(soLuong), decimal.Parse(donGia));
+                        // Kiểm tra xem hàng hiện tại không phải là hàng mới
+                        if (!row.IsNewRow)
+                        {
+                            // Lấy giá trị từ các ô trong hàng
+                            string maSP = row.Cells["MaSP"].Value?.ToString();
+                            string tenSP = row.Cells["TenSP"].Value?.ToString();
+                            string donGia = row.Cells["DonGia"].Value?.ToString();
+                            string soLuong = row.Cells["SoLuong"].Value?.ToString();
+                            dBChiTietHD.ThemChiTietHD(maSP, int.Parse(soLuong), decimal.Parse(donGia));
+                            dBSanPham.TruThongTinSanPham(maSP, tenSP, int.Parse(soLuong), decimal.Parse(donGia));
+                        }
+                        
+                    }
+                    MessageBox.Show("Thanh toán thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    gwSellProduct.DataSource = null;
+                    gwSellProduct.Rows.Clear();
+                    gwSellProduct.Columns.Clear();
+                    tbQty.Text = "0";
+                    UpdateTotalMoney();
+                    tbNameCus.Text = "";
+                    tbNumberCus.Text = "";
+                    using (var context = new DBGroceryContext())
+                    {
+                        var query = context.SanPhams
+                              .Select(s => new { s.MaSP, s.TenSP, s.DonGia, s.SoLuong }); // Chọn các cột MaSP, TenSP, DonGia
+                                                                                          // Gán dữ liệu từ query vào gwProduct.DataSource
+                        gwProduct.DataSource = query.ToList();
                     }
                 }
-                MessageBox.Show("Thanh toán thành công!!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                gwSellProduct.Rows.Clear();
-                tbQty.Text = "0";
-                UpdateTotalMoney();
-                using (var context = new DBGroceryContext())
+                else
                 {
-                    var query = context.SanPhams
-                          .Select(s => new { s.MaSP, s.TenSP, s.DonGia, s.SoLuong }); // Chọn các cột MaSP, TenSP, DonGia
-                    // Gán dữ liệu từ query vào gwProduct.DataSource
-                    gwProduct.DataSource = query.ToList();
+                    MessageBox.Show("Kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Kiểm tra lại thông tin!!!", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Chưa có mặt hàng nào", "Thất bại!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-                
+              
         }
 
         private void btnCancle_Click(object sender, EventArgs e)
@@ -238,7 +251,6 @@ namespace UI
                         }
                                     
                 }
-
             }
             UpdateTotalMoney();
         }
